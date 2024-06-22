@@ -3,14 +3,26 @@
 
 <a href="https://codeclimate.com/github/Chawku/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/10e0647114652c5a454b/maintainability" /></a>
 
-# Games Description:
+# Installation:
+Make sure you have Poetry installed and enter the command:
+`make install`
+
+# Games:
+To start, select the game and enter the command:
+
 - brain-even - specify if the number is even or not
+`brain-even`
 - brain-calc - find the result of simple math expression
+`brain-calc`
 - brain-gcd - find the greatest common divisor of two given numbers
+`brain-gcd`
 - brain-progression - find a missed number in the arithmetic progression
+`brain-progression`
 - brain-prime - specify if the number is prime or not
+`brain-prime`
 
 # Examples:
+
 ### brain-even:
 <a href="https://asciinema.org/a/Mm48zLv7SmHjKB3E5tk1RGNih" target="_blank"><img src="https://asciinema.org/a/Mm48zLv7SmHjKB3E5tk1RGNih.svg" /></a>
 
