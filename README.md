@@ -10,15 +10,15 @@ Make sure you have Poetry installed and enter the command:
 # Games:
 To start, select the game and enter the command:
 
-- brain-even - specify if the number is even or not
+- brain-even - specify if the number is even or not  
 `brain-even`
-- brain-calc - find the result of simple math expression
+- brain-calc - find the result of simple math expression  
 `brain-calc`
-- brain-gcd - find the greatest common divisor of two given numbers
+- brain-gcd - find the greatest common divisor of two given numbers  
 `brain-gcd`
-- brain-progression - find a missed number in the arithmetic progression
+- brain-progression - find a missed number in the arithmetic progression  
 `brain-progression`
-- brain-prime - specify if the number is prime or not
+- brain-prime - specify if the number is prime or not  
 `brain-prime`
 
 # Examples:
