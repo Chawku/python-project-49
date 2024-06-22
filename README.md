@@ -4,8 +4,8 @@
 <a href="https://codeclimate.com/github/Chawku/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/10e0647114652c5a454b/maintainability" /></a>
 
 # Installation:
-Make sure you have Poetry installed and run the command:
-`make install`
+Run the command:
+`pip install git+https://github.com/Chawku/python-project-49.git`
 
 # Games:
 Brain Games - collection of 5 arithmetic games.
