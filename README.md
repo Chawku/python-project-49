@@ -8,6 +8,8 @@ Make sure you have Poetry installed and enter the command:
 `make install`
 
 # Games:
+Brain Games - collection of 5 arithmetic games.
+
 To start, select the game and enter the command:
 
 - brain-even - specify if the number is even or not  
