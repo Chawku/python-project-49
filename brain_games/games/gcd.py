@@ -4,7 +4,7 @@ from math import gcd
 RULES = 'Find the greatest common divisor of given numbers.'
 
 
-def challenge():
+def generate_question():
     first = random.randint(0, 100)
     second = random.randint(0, 100)
 

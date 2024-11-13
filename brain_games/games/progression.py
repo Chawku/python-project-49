@@ -3,21 +3,16 @@ import random
 RULES = 'What number is missing in the progression?'
 
 
-def progression():
-    task = []
-    initial_number, difference = random.randint(1, 30), random.randint(1, 30)
+def generate_question():
+    number = random.randint(1, 30)
+    difference = random.randint(1, 30)
     length = 10
-    for i in range(length):
-        initial_number += difference
-        task.append(initial_number)
 
-    random_index = random.randint(0, 9)
-    correct_answer = str(task[random_index])
-    return task, correct_answer, random_index
+    progression = [number + i * difference for i in range(length)]
 
+    random_index = random.randint(0, length - 1)
+    correct_answer = str(progression[random_index])
+    progression[random_index] = '..'
 
-def challenge():
-    task, correct_answer, random_index = progression()
-    task[random_index] = '..'
-    task = ' '.join(str(i) for i in task)
+    task = ' '.join(map(str, progression))
     return correct_answer, task

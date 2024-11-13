@@ -3,7 +3,7 @@ import random
 RULES = 'What is the result of the expression?'
 
 
-def challenge():
+def generate_question():
     first = random.randint(0, 50)
     second = random.randint(0, 50)
     operators = ['+', '-', '*']
