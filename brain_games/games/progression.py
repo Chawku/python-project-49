@@ -8,7 +8,7 @@ def generate_question():
     difference = random.randint(1, 30)
     length = 10
 
-    progression = [number + i * difference for i in range(length)]
+    progression = list(range(number, number + length * difference, difference))
 
     random_index = random.randint(0, length - 1)
     correct_answer = str(progression[random_index])
